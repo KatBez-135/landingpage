@@ -1,0 +1,25 @@
+body {
+    background-color: lightgray;
+}
+
+#navigation-list {
+    width: 100px;
+    margin: 0;
+    padding: 0;
+    position: fixed; 
+    top: 40%; 
+    right: 10px; 
+}
+
+#navigation-list li {
+    text-align: center;
+    display: block;
+    color: white;
+    background-color: black;
+    border-bottom: 1px solid gray;
+    padding: 10px;
+}
+
+#navigation-list li:last-child {
+    border-bottom: none;
+}
