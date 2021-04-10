@@ -20,6 +20,17 @@ body {
     padding: 10px;
 }
 
+#navigation-list li a {
+    list-style-type: none;
+}
+
 #navigation-list li:last-child {
     border-bottom: none;
 }
+
+a {
+    color:white;
+    text-decoration: none; /* no underline */
+    width: 100%;
+    height: 100%;
+  }
