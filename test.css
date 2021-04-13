@@ -1,8 +1,13 @@
+*{
+    font-family: PT Sans;
+    text-align: center;
+}
+
 body{
     margin:0;
 }
 
-div{
+section{
     padding: 8px;
     margin: 0;
 }
@@ -11,10 +16,35 @@ h2 {
     margin:0;
     padding-top: 5px;
     padding-bottom: 5px;
+    font-family: Arial Narrow;
+    text-transform: uppercase;
 }
 
 .light-background {
     background-color: whitesmoke;
+}
+
+hr {
+    margin: 0;
+    color: lightgray;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td {
+    text-align: left;
+    padding-right: 20px;
+}
+
+img{
+    margin: 15px;
+}
+
+td:last-child{
+    margin-right: 0;
 }
 
 .navigation-list {
