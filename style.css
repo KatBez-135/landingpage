@@ -77,7 +77,8 @@ img{
 }
 
 .linksbündig {
-    padding-left: 38%;
+    width: 180px;
+    padding-left: 30px;
     text-align: left;
 }
 
@@ -234,16 +235,30 @@ time {
     margin-left: 6px;
 }
 
-.timestamp {
-    display: flex;
-    align-items: center;
+.timestamp-size {
+    width: 400px;
     height: 180px;
     margin: 0;
     padding: 0;
 }
 
+.timestamp {
+    display: flex;
+    align-items: center;
+}
+
 .timestamp p {
     width: auto;
+}
+
+.left p {
+    margin-left: auto;
+    margin-right: 0;
+}
+
+.right p {
+    margin-left: 0;
+    margin-right: auto;
 }
 
 .timeline-img{
@@ -254,8 +269,12 @@ time {
     margin-right: auto;
 }
 
-.timestamp-img{
-    height: 180px;
+.timestamp-img-left{
+    text-align: right ;
+}
+
+.timestamp-img-rechts{
+    text-align: left ;
 }
 
 .zeitleiste-info {
